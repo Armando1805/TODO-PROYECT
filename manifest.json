@@ -1,0 +1,55 @@
+{
+    "name": "Mi Lista de Tareas",
+    "short_name": "Tareas",
+    "description": "Una aplicación de lista de tareas sencilla",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3498db",
+    "icons": [
+      {
+        "public": "vite.svg",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+  "scope": "/",
+    "orientation": "portrait",
+    "dir": "ltr",
+    "lang": "en-US",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "screenshots": [
+      {
+        "src": "./screenshots/splashScreen.png",
+        "sizes": "689x633",
+        "type": "image/png",
+        "label": "Splash Screen"
+      },
+      {
+        "src": "./screenshots/addTodo.png",
+        "sizes": "1316x589",
+        "type": "image/png",
+        "label": "Add Wager"
+      },
+      {
+        "src": "./screenshots/Notification.png",
+        "sizes": "350x90",
+        "type": "image/png",
+        "label": "Ticket Notification"
+      },
+      {
+        "src": "./screenshots/serviceWorkerpng",
+        "sizes": "350x90",
+        "type": "image/png",
+        "label": "Ticket Notification"
+      }
+    ],
+    "categories": ["productivity"],
+    "serviceworker": {
+      "src": "./sw.js",
+      "scope": "/",
+      "type": "classic"
+    }
+  }
+  
